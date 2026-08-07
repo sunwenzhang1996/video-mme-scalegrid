@@ -1,0 +1,418 @@
+{
+  "V1_medium": {
+    "InternVL3-8B": {
+      "n": 639,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 35.5243,
+        "16f_151k": 53.9906,
+        "32f_151k": 58.6854,
+        "64f_151k": 61.9718,
+        "128f_151k": 57.1205
+      },
+      "best_fixed": 61.9718,
+      "oracle": 77.9343,
+      "headroom": 15.9624,
+      "visual_confusion_rate": 29.5775,
+      "overwrite_rate": 12.8326,
+      "matched_grid_status": "complete"
+    },
+    "InternVL3.5-8B": {
+      "n": 639,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 40.0626,
+        "16f_151k": 57.4335,
+        "32f_151k": 59.4679,
+        "64f_151k": 63.2238,
+        "128f_151k": 57.4335
+      },
+      "best_fixed": 63.2238,
+      "oracle": 78.2473,
+      "headroom": 15.0235,
+      "visual_confusion_rate": 28.3255,
+      "overwrite_rate": 14.867,
+      "matched_grid_status": "complete"
+    },
+    "Qwen2.5-VL-7B": {
+      "n": 639,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k",
+        "256f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 38.4977,
+        "16f_151k": 52.2692,
+        "32f_151k": 58.216,
+        "64f_151k": 64.1628,
+        "128f_151k": 66.0407,
+        "256f_151k": 67.2926
+      },
+      "best_fixed": 67.2926,
+      "oracle": 81.6901,
+      "headroom": 14.3975,
+      "visual_confusion_rate": 28.9515,
+      "overwrite_rate": 12.8326,
+      "matched_grid_status": "complete"
+    },
+    "Qwen3-VL-8B": {
+      "n": 639,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k",
+        "256f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 42.5665,
+        "16f_151k": 47.2613,
+        "32f_151k": 46.4789,
+        "64f_151k": 47.2613,
+        "128f_151k": 54.6166,
+        "256f_151k": 57.4335
+      },
+      "best_fixed": 57.4335,
+      "oracle": 75.2739,
+      "headroom": 17.8404,
+      "visual_confusion_rate": 33.6463,
+      "overwrite_rate": 19.5618,
+      "matched_grid_status": "complete"
+    }
+  },
+  "V1_short": {
+    "InternVL3-8B": {
+      "n": 786,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 39.8219,
+        "16f_151k": 68.0662,
+        "32f_151k": 71.7557,
+        "64f_151k": 71.374
+      },
+      "best_fixed": 71.7557,
+      "oracle": 80.5344,
+      "headroom": 8.7786,
+      "visual_confusion_rate": 12.4682,
+      "overwrite_rate": 8.1425,
+      "matched_grid_status": "complete"
+    },
+    "InternVL3.5-8B": {
+      "n": 786,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 42.4936,
+        "16f_151k": 70.6107,
+        "32f_151k": 73.9186,
+        "64f_151k": 74.173
+      },
+      "best_fixed": 74.173,
+      "oracle": 84.7328,
+      "headroom": 10.5598,
+      "visual_confusion_rate": 14.1221,
+      "overwrite_rate": 10.0509,
+      "matched_grid_status": "complete"
+    },
+    "LLaVA-NeXT-Video-7B": {
+      "n": 786,
+      "configs": [
+        "textonly",
+        "8f_151k",
+        "16f_151k",
+        "32f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 28.3715,
+        "8f_151k": 42.3664,
+        "16f_151k": 43.6387,
+        "32f_151k": 45.9288
+      },
+      "best_fixed": 45.9288,
+      "oracle": 57.7608,
+      "headroom": 11.8321,
+      "visual_confusion_rate": 16.1578,
+      "overwrite_rate": 10.9415,
+      "matched_grid_status": "incomplete_matched_grid"
+    },
+    "Qwen2.5-VL-7B": {
+      "n": 786,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k",
+        "256f_151k",
+        "128f_76k",
+        "32f_302k",
+        "64f_235k",
+        "64f_360k",
+        "64f_76k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 37.5318,
+        "16f_151k": 65.9033,
+        "32f_151k": 68.9567,
+        "64f_151k": 72.6463,
+        "128f_151k": 76.4631,
+        "256f_151k": 75.827,
+        "128f_76k": 75.3181,
+        "32f_302k": 71.1196,
+        "64f_235k": 74.173,
+        "64f_360k": 74.5547,
+        "64f_76k": 72.3919
+      },
+      "best_fixed": 76.4631,
+      "oracle": 87.9135,
+      "headroom": 11.4504,
+      "visual_confusion_rate": 30.4071,
+      "overwrite_rate": 11.7048,
+      "matched_grid_status": "complete"
+    },
+    "Qwen3-VL-8B": {
+      "n": 786,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k",
+        "256f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 43.8931,
+        "16f_151k": 69.5929,
+        "32f_151k": 74.8092,
+        "64f_151k": 78.117,
+        "128f_151k": 79.6438,
+        "256f_151k": 79.6438
+      },
+      "best_fixed": 79.6438,
+      "oracle": 88.6768,
+      "headroom": 9.0331,
+      "visual_confusion_rate": 16.6667,
+      "overwrite_rate": 12.4682,
+      "matched_grid_status": "complete"
+    }
+  },
+  "V2_medium": {
+    "InternVL3-8B": {
+      "n": 2516,
+      "configs": [
+        "128f_input224"
+      ],
+      "accuracy_by_config": {
+        "128f_input224": 22.0986
+      },
+      "best_fixed": 22.0986,
+      "oracle": 22.0986,
+      "headroom": 0.0,
+      "visual_confusion_rate": 0.0,
+      "overwrite_rate": 0.0,
+      "matched_grid_status": "incomplete_matched_grid"
+    },
+    "InternVL3.5-8B": {
+      "n": 2516,
+      "configs": [
+        "128f_input224"
+      ],
+      "accuracy_by_config": {
+        "128f_input224": 21.0652
+      },
+      "best_fixed": 21.0652,
+      "oracle": 21.0652,
+      "headroom": 0.0,
+      "visual_confusion_rate": 0.0,
+      "overwrite_rate": 0.0,
+      "matched_grid_status": "incomplete_matched_grid"
+    },
+    "LLaVA-NeXT-Video-7B": {
+      "n": 2516,
+      "configs": [
+        "textonly",
+        "8f_151k",
+        "16f_151k",
+        "32f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 13.6725,
+        "8f_151k": 14.7854,
+        "16f_151k": 15.3021,
+        "32f_151k": 15.2226
+      },
+      "best_fixed": 15.3021,
+      "oracle": 21.9396,
+      "headroom": 6.6375,
+      "visual_confusion_rate": 8.2671,
+      "overwrite_rate": 5.7631,
+      "matched_grid_status": "incomplete_matched_grid"
+    },
+    "Qwen2.5-VL-7B": {
+      "n": 2516,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k",
+        "256f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 15.2226,
+        "16f_151k": 21.6614,
+        "32f_151k": 22.9332,
+        "64f_151k": 25.1192,
+        "128f_151k": 25.5564,
+        "256f_151k": 26.5898
+      },
+      "best_fixed": 26.5898,
+      "oracle": 39.4674,
+      "headroom": 12.8776,
+      "visual_confusion_rate": 18.8394,
+      "overwrite_rate": 8.2671,
+      "matched_grid_status": "complete"
+    },
+    "Qwen3-VL-8B": {
+      "n": 2516,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 18.4022,
+        "16f_151k": 22.2576,
+        "32f_151k": 21.8601,
+        "64f_151k": 22.8935,
+        "128f_151k": 23.9269
+      },
+      "best_fixed": 23.9269,
+      "oracle": 36.089,
+      "headroom": 12.1622,
+      "visual_confusion_rate": 17.1304,
+      "overwrite_rate": 8.9428,
+      "matched_grid_status": "complete"
+    }
+  },
+  "MLVU": {
+    "InternVL3.5-8B": {
+      "n": 2170,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 42.765,
+        "16f_151k": 62.6267,
+        "32f_151k": 65.9908,
+        "64f_151k": 69.0783,
+        "128f_151k": 65.7143
+      },
+      "best_fixed": 69.0783,
+      "oracle": 84.1475,
+      "headroom": 15.0691,
+      "visual_confusion_rate": 27.8341,
+      "overwrite_rate": 14.977,
+      "matched_grid_status": "complete"
+    },
+    "LLaVA-NeXT-Video-7B": {
+      "n": 2170,
+      "configs": [
+        "textonly",
+        "8f_151k",
+        "16f_151k",
+        "32f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 36.5899,
+        "8f_151k": 45.2995,
+        "16f_151k": 47.1429,
+        "32f_151k": 48.0184
+      },
+      "best_fixed": 48.0184,
+      "oracle": 60.4608,
+      "headroom": 12.4424,
+      "visual_confusion_rate": 17.6959,
+      "overwrite_rate": 11.106,
+      "matched_grid_status": "incomplete_matched_grid"
+    },
+    "Qwen2.5-VL-7B": {
+      "n": 2170,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 46.3134,
+        "16f_151k": 58.2028,
+        "32f_151k": 62.6728,
+        "64f_151k": 63.5484,
+        "128f_151k": 68.2488
+      },
+      "best_fixed": 68.2488,
+      "oracle": 80.9677,
+      "headroom": 12.7189,
+      "visual_confusion_rate": 23.318,
+      "overwrite_rate": 14.424,
+      "matched_grid_status": "complete"
+    },
+    "Qwen3-VL-8B": {
+      "n": 2170,
+      "configs": [
+        "textonly",
+        "16f_151k",
+        "32f_151k",
+        "64f_151k",
+        "128f_151k"
+      ],
+      "accuracy_by_config": {
+        "textonly": 45.2074,
+        "16f_151k": 54.3779,
+        "32f_151k": 53.5023,
+        "64f_151k": 54.3318,
+        "128f_151k": 56.6359
+      },
+      "best_fixed": 56.6359,
+      "oracle": 75.9908,
+      "headroom": 19.3548,
+      "visual_confusion_rate": 30.2304,
+      "overwrite_rate": 18.9862,
+      "matched_grid_status": "complete"
+    }
+  }
+}

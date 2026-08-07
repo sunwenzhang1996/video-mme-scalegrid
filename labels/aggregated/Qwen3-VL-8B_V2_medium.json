@@ -1,0 +1,23 @@
+{
+  "n": 2516,
+  "configs": [
+    "textonly",
+    "16f_151k",
+    "32f_151k",
+    "64f_151k",
+    "128f_151k"
+  ],
+  "accuracy_by_config": {
+    "textonly": 18.4022,
+    "16f_151k": 22.2576,
+    "32f_151k": 21.8601,
+    "64f_151k": 22.8935,
+    "128f_151k": 23.9269
+  },
+  "best_fixed": 23.9269,
+  "oracle": 36.089,
+  "headroom": 12.1622,
+  "visual_confusion_rate": 17.1304,
+  "overwrite_rate": 8.9428,
+  "matched_grid_status": "complete"
+}

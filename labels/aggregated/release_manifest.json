@@ -1,0 +1,739 @@
+{
+  "cells": [
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "textonly",
+      "total": 786,
+      "correct": 345,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "16f_151k",
+      "total": 786,
+      "correct": 547,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "32f_151k",
+      "total": 786,
+      "correct": 588,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "64f_151k",
+      "total": 786,
+      "correct": 614,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "128f_151k",
+      "total": 786,
+      "correct": 626,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_short",
+      "config": "256f_151k",
+      "total": 786,
+      "correct": 626,
+      "source_tag": "official:Qwen3-VL-8B:V1_short:256f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_short",
+      "config": "textonly",
+      "total": 786,
+      "correct": 313,
+      "source_tag": "official:InternVL3-8B:V1_short:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_short",
+      "config": "16f_151k",
+      "total": 786,
+      "correct": 535,
+      "source_tag": "official:InternVL3-8B:V1_short:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_short",
+      "config": "32f_151k",
+      "total": 786,
+      "correct": 564,
+      "source_tag": "official:InternVL3-8B:V1_short:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_short",
+      "config": "64f_151k",
+      "total": 786,
+      "correct": 561,
+      "source_tag": "official:InternVL3-8B:V1_short:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_short",
+      "config": "textonly",
+      "total": 786,
+      "correct": 334,
+      "source_tag": "official:InternVL3.5-8B:V1_short:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_short",
+      "config": "16f_151k",
+      "total": 786,
+      "correct": 555,
+      "source_tag": "official:InternVL3.5-8B:V1_short:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_short",
+      "config": "32f_151k",
+      "total": 786,
+      "correct": 581,
+      "source_tag": "official:InternVL3.5-8B:V1_short:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_short",
+      "config": "64f_151k",
+      "total": 786,
+      "correct": 583,
+      "source_tag": "official:InternVL3.5-8B:V1_short:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "32f_151k",
+      "total": 639,
+      "correct": 372,
+      "source_tag": "official:Qwen2.5-VL-7B:V1_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "256f_151k",
+      "total": 639,
+      "correct": 430,
+      "source_tag": "official:Qwen2.5-VL-7B:V1_medium:256f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "32f_151k",
+      "total": 639,
+      "correct": 297,
+      "source_tag": "official:Qwen3-VL-8B:V1_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "256f_151k",
+      "total": 639,
+      "correct": 367,
+      "source_tag": "official:Qwen3-VL-8B:V1_medium:256f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_medium",
+      "config": "32f_151k",
+      "total": 639,
+      "correct": 375,
+      "source_tag": "official:InternVL3-8B:V1_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_medium",
+      "config": "128f_151k",
+      "total": 639,
+      "correct": 365,
+      "source_tag": "official:InternVL3-8B:V1_medium:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_medium",
+      "config": "16f_151k",
+      "total": 639,
+      "correct": 367,
+      "source_tag": "official:InternVL3.5-8B:V1_medium:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_medium",
+      "config": "32f_151k",
+      "total": 639,
+      "correct": 380,
+      "source_tag": "official:InternVL3.5-8B:V1_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_medium",
+      "config": "128f_151k",
+      "total": 639,
+      "correct": 367,
+      "source_tag": "official:InternVL3.5-8B:V1_medium:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "textonly",
+      "total": 2516,
+      "correct": 383,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "16f_151k",
+      "total": 2516,
+      "correct": 545,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "32f_151k",
+      "total": 2516,
+      "correct": 577,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "64f_151k",
+      "total": 2516,
+      "correct": 632,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "128f_151k",
+      "total": 2516,
+      "correct": 643,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V2_medium",
+      "config": "256f_151k",
+      "total": 2516,
+      "correct": 669,
+      "source_tag": "official:Qwen2.5-VL-7B:V2_medium:256f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V2_medium",
+      "config": "textonly",
+      "total": 2516,
+      "correct": 463,
+      "source_tag": "official:Qwen3-VL-8B:V2_medium:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V2_medium",
+      "config": "16f_151k",
+      "total": 2516,
+      "correct": 560,
+      "source_tag": "official:Qwen3-VL-8B:V2_medium:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V2_medium",
+      "config": "32f_151k",
+      "total": 2516,
+      "correct": 550,
+      "source_tag": "official:Qwen3-VL-8B:V2_medium:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V2_medium",
+      "config": "64f_151k",
+      "total": 2516,
+      "correct": 576,
+      "source_tag": "official:Qwen3-VL-8B:V2_medium:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V2_medium",
+      "config": "128f_151k",
+      "total": 2516,
+      "correct": 602,
+      "source_tag": "official:Qwen3-VL-8B:V2_medium:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V2_medium",
+      "config": "128f_input224",
+      "total": 2516,
+      "correct": 556,
+      "source_tag": "official:InternVL3-8B:V2_medium:128f_input224",
+      "protocol_note": "fallback_input224"
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V2_medium",
+      "config": "128f_input224",
+      "total": 2516,
+      "correct": 530,
+      "source_tag": "official:InternVL3.5-8B:V2_medium:128f_input224",
+      "protocol_note": "fallback_input224"
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "MLVU",
+      "config": "textonly",
+      "total": 2170,
+      "correct": 1005,
+      "source_tag": "official:Qwen2.5-VL-7B:MLVU:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "MLVU",
+      "config": "16f_151k",
+      "total": 2170,
+      "correct": 1263,
+      "source_tag": "official:Qwen2.5-VL-7B:MLVU:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "MLVU",
+      "config": "32f_151k",
+      "total": 2170,
+      "correct": 1360,
+      "source_tag": "official:Qwen2.5-VL-7B:MLVU:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "MLVU",
+      "config": "64f_151k",
+      "total": 2170,
+      "correct": 1379,
+      "source_tag": "official:Qwen2.5-VL-7B:MLVU:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "MLVU",
+      "config": "128f_151k",
+      "total": 2170,
+      "correct": 1481,
+      "source_tag": "official:Qwen2.5-VL-7B:MLVU:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "MLVU",
+      "config": "textonly",
+      "total": 2170,
+      "correct": 981,
+      "source_tag": "official:Qwen3-VL-8B:MLVU:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "MLVU",
+      "config": "16f_151k",
+      "total": 2170,
+      "correct": 1180,
+      "source_tag": "official:Qwen3-VL-8B:MLVU:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "MLVU",
+      "config": "32f_151k",
+      "total": 2170,
+      "correct": 1161,
+      "source_tag": "official:Qwen3-VL-8B:MLVU:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "MLVU",
+      "config": "64f_151k",
+      "total": 2170,
+      "correct": 1179,
+      "source_tag": "official:Qwen3-VL-8B:MLVU:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "MLVU",
+      "config": "128f_151k",
+      "total": 2170,
+      "correct": 1229,
+      "source_tag": "official:Qwen3-VL-8B:MLVU:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "MLVU",
+      "config": "textonly",
+      "total": 2170,
+      "correct": 928,
+      "source_tag": "official:InternVL3.5-8B:MLVU:textonly",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "MLVU",
+      "config": "16f_151k",
+      "total": 2170,
+      "correct": 1359,
+      "source_tag": "official:InternVL3.5-8B:MLVU:16f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "MLVU",
+      "config": "32f_151k",
+      "total": 2170,
+      "correct": 1432,
+      "source_tag": "official:InternVL3.5-8B:MLVU:32f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "MLVU",
+      "config": "64f_151k",
+      "total": 2170,
+      "correct": 1499,
+      "source_tag": "official:InternVL3.5-8B:MLVU:64f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "MLVU",
+      "config": "128f_151k",
+      "total": 2170,
+      "correct": 1426,
+      "source_tag": "official:InternVL3.5-8B:MLVU:128f_151k",
+      "protocol_note": ""
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "textonly",
+      "total": 639,
+      "correct": 246,
+      "source_tag": "legacy_clean:Qwen2.5-VL-7B:V1_medium:textonly",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "16f_151k",
+      "total": 639,
+      "correct": 334,
+      "source_tag": "legacy_clean:Qwen2.5-VL-7B:V1_medium:16f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "64f_151k",
+      "total": 639,
+      "correct": 410,
+      "source_tag": "legacy_clean:Qwen2.5-VL-7B:V1_medium:64f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen2.5-VL-7B",
+      "split": "V1_medium",
+      "config": "128f_151k",
+      "total": 639,
+      "correct": 422,
+      "source_tag": "legacy_clean:Qwen2.5-VL-7B:V1_medium:128f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "textonly",
+      "total": 639,
+      "correct": 272,
+      "source_tag": "legacy_clean:Qwen3-VL-8B:V1_medium:textonly",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "16f_151k",
+      "total": 639,
+      "correct": 302,
+      "source_tag": "legacy_clean:Qwen3-VL-8B:V1_medium:16f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "64f_151k",
+      "total": 639,
+      "correct": 302,
+      "source_tag": "legacy_clean:Qwen3-VL-8B:V1_medium:64f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "Qwen3-VL-8B",
+      "split": "V1_medium",
+      "config": "128f_151k",
+      "total": 639,
+      "correct": 349,
+      "source_tag": "legacy_clean:Qwen3-VL-8B:V1_medium:128f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_medium",
+      "config": "textonly",
+      "total": 639,
+      "correct": 227,
+      "source_tag": "legacy_clean:InternVL3-8B:V1_medium:textonly",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_medium",
+      "config": "16f_151k",
+      "total": 639,
+      "correct": 345,
+      "source_tag": "legacy_clean:InternVL3-8B:V1_medium:16f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "InternVL3-8B",
+      "split": "V1_medium",
+      "config": "64f_151k",
+      "total": 639,
+      "correct": 396,
+      "source_tag": "legacy_clean:InternVL3-8B:V1_medium:64f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_medium",
+      "config": "textonly",
+      "total": 639,
+      "correct": 256,
+      "source_tag": "legacy_clean:InternVL3.5-8B:V1_medium:textonly",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "InternVL3.5-8B",
+      "split": "V1_medium",
+      "config": "64f_151k",
+      "total": 639,
+      "correct": 404,
+      "source_tag": "legacy_clean:InternVL3.5-8B:V1_medium:64f_151k",
+      "protocol_note": "historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V1_short",
+      "config": "textonly",
+      "total": 786,
+      "correct": 223,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V1_short:textonly",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V1_short",
+      "config": "8f_151k",
+      "total": 786,
+      "correct": 333,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V1_short:8f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V1_short",
+      "config": "16f_151k",
+      "total": 786,
+      "correct": 343,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V1_short:16f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V1_short",
+      "config": "32f_151k",
+      "total": 786,
+      "correct": 361,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V1_short:32f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V2_medium",
+      "config": "textonly",
+      "total": 2516,
+      "correct": 344,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V2_medium:textonly",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V2_medium",
+      "config": "8f_151k",
+      "total": 2516,
+      "correct": 372,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V2_medium:8f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V2_medium",
+      "config": "16f_151k",
+      "total": 2516,
+      "correct": 385,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V2_medium:16f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "V2_medium",
+      "config": "32f_151k",
+      "total": 2516,
+      "correct": 383,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:V2_medium:32f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "MLVU",
+      "config": "textonly",
+      "total": 2170,
+      "correct": 794,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:MLVU:textonly",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "MLVU",
+      "config": "8f_151k",
+      "total": 2170,
+      "correct": 983,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:MLVU:8f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "MLVU",
+      "config": "16f_151k",
+      "total": 2170,
+      "correct": 1023,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:MLVU:16f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    },
+    {
+      "model": "LLaVA-NeXT-Video-7B",
+      "split": "MLVU",
+      "config": "32f_151k",
+      "total": 2170,
+      "correct": 1042,
+      "source_tag": "legacy_clean:LLaVA-NeXT-Video-7B:MLVU:32f_151k",
+      "protocol_note": "llava_native_processor;max_32f;historical_clean_patch"
+    }
+  ],
+  "wide_sources": [
+    {
+      "source_tag": "legacy_clean:Qwen2.5-VL-7B:V1_short:extended_per_item",
+      "cells": {
+        "textonly": {
+          "total": 786,
+          "correct": 295
+        },
+        "16f_151k": {
+          "total": 786,
+          "correct": 518
+        },
+        "32f_151k": {
+          "total": 786,
+          "correct": 542
+        },
+        "64f_76k": {
+          "total": 786,
+          "correct": 569
+        },
+        "64f_151k": {
+          "total": 786,
+          "correct": 571
+        },
+        "64f_235k": {
+          "total": 786,
+          "correct": 583
+        },
+        "64f_360k": {
+          "total": 786,
+          "correct": 586
+        },
+        "32f_302k": {
+          "total": 786,
+          "correct": 559
+        },
+        "128f_76k": {
+          "total": 786,
+          "correct": 592
+        },
+        "128f_151k": {
+          "total": 786,
+          "correct": 601
+        },
+        "256f_151k": {
+          "total": 786,
+          "correct": 596
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "n": 2516,
+  "configs": [
+    "128f_input224"
+  ],
+  "accuracy_by_config": {
+    "128f_input224": 21.0652
+  },
+  "best_fixed": 21.0652,
+  "oracle": 21.0652,
+  "headroom": 0.0,
+  "visual_confusion_rate": 0.0,
+  "overwrite_rate": 0.0,
+  "matched_grid_status": "incomplete_matched_grid"
+}
